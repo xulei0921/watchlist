@@ -1,6 +1,8 @@
 *.pyc
 *~
-__pycache__
-.DS_Store
 *.env
 *.db
+__pycache__
+.DS_Store
+htmlcov/
+.coverage

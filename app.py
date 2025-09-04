@@ -142,7 +142,7 @@ def admin(username, password):
         db.session.add(user)
 
     db.session.commit()     # 提交数据库会话
-    click.echo('Done')
+    click.echo('Done.')
 
 @app.errorhandler(404)  # 传入要处理的错误代码
 def page_not_found(e):  # 接收异常对象作为参数
